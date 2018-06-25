@@ -1,0 +1,17 @@
+pendu:
+
+3 niveaux: facile moyen difficile (pour primaire)
+environ 8 tentatices
+5 thèmes(20 mots de 5 à 10 caractères): sport,
+métiers, animaux, couleurs, matériel scolaire
+créer un clavier virtuel
+
+taille 600px*600px
+couleurs ludiques, soignées
+
+
+
+pour mozilla firefox
+ nombre .d'essais restant
+
+

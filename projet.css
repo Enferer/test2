@@ -1,0 +1,384 @@
+/* MENU */
+
+html {
+    user-select: none;
+}
+
+header {
+    display: block;
+    height: 80px;
+    width: 70%;
+    color: whitesmoke;
+    line-height: 120px;
+    font-size: 70px;
+    font-family: font1;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 15%;
+    letter-spacing: 30px;
+    animation: mymove 1.5s infinite;
+    position: relative;
+}
+
+body {
+
+    background-size: cover;
+}
+
+@font-face {
+    font-family: "font";
+    src: url(font4.ttf);
+}
+
+@font-face {
+    font-family: "font1";
+    src: url(font.ttf);
+}
+
+@keyframes mymove {
+    0% {
+        top: 0px;
+    }
+    50% {
+        top: 25px;
+    }
+    100% {
+        top: 0px
+    }
+}
+
+h {
+    display: block;
+    border: solid;
+    border-color: whitesmoke;
+    margin-top: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 700px;
+}
+
+li {
+    display: block;
+    border: solid;
+    border-width: 6px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 350px;
+    height: 55px;
+    line-height: 50px;
+    color: whitesmoke;
+    border-color: whitesmoke;
+}
+
+li:hover {
+    display: block;
+    border: solid;
+    border-width: 6px;
+    width: 350px;
+    height: 55px;
+    margin-left: auto;
+    margin-right: auto;
+    border-color: black;
+    color: black;
+    line-height: 50px;
+}
+
+#accueil {
+    display: none;
+    text-align: center;
+    font-size: 30px;
+    font-family: font;
+    margin-top: 50px;
+}
+
+#jouer {
+    display: block;
+    text-align: center;
+    font-size: 30px;
+    font-family: font;
+    margin-top: 50px;
+}
+
+#facile {
+    display: none;
+    text-align: center;
+    font-size: 30px;
+    font-family: font;
+    margin-top: 50px;
+}
+
+#moyen {
+    display: none;
+    text-align: center;
+    font-size: 30px;
+    font-family: font;
+}
+
+#difficile {
+    display: none;
+    text-align: center;
+    font-size: 30px;
+    font-family: font;
+}
+
+#regles {
+    text-align: center;
+    font-size: 30px;
+    font-family: font;
+}
+
+#credits {
+    display: block;
+    text-align: center;
+    font-size: 30px;
+    font-family: font;
+}
+
+/*#score {
+    text-align: center;
+    font-size: 30px;
+    font-family: font;
+}*/
+
+#sports {
+    display: none;
+    text-align: center;
+    font-size: 30px;
+    font-family: font;
+}
+
+#ecole {
+    display: none;
+    text-align: center;
+    font-size: 30px;
+    font-family: font;
+}
+
+#animaux {
+    display: none;
+    text-align: center;
+    font-size: 30px;
+    font-family: font;
+}
+
+#fruits {
+    display: none;
+    text-align: center;
+    font-size: 30px;
+    font-family: font;
+}
+
+#legumes {
+    display: none;
+    text-align: center;
+    font-size: 30px;
+    font-family: font;
+}
+
+
+
+#credits1 {
+    display: none;
+    text-align: center;
+    font-size: 25px;
+    font-family: font;
+    margin-top: 150px;
+    margin-left: 50px;
+    margin-right: 50px;
+    line-height: 35px;
+    color: whitesmoke;
+}
+
+#regles1,
+#regles2,
+#regles3,
+#regles4 {
+    display: none;
+    text-align: center;
+    font-size: 25px;
+    font-family: font;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    line-height: 35px;
+    color: whitesmoke;
+}
+
+ul {
+    display: block;
+    height: 200px;
+    width: 500px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+/* MOTEUR */
+
+td {
+    /*display: inline-block;*/
+    width: 60px;
+    border: solid;
+    background-color: rgba(34, 177, 76, 0.5);
+    height: 60px;
+    text-align: center;
+    font-family: "font";
+    font-size: 35px;
+    color: white;
+    border-color: whitesmoke;
+}
+
+td:hover {
+    background-color: rgba(237, 28, 36, 0.5);
+    border: inset;
+    color: white;
+    border-color: whitesmoke;
+}
+
+@font-face {
+    font-family: "font";
+    src: url(font4.ttf)
+}
+
+table {
+    display: block;
+    width: 800px;
+    height: 70px;
+}
+
+#ligne2 {
+    margin-left: 30px;
+}
+
+#ligne3 {
+    margin-left: 180px;
+}
+
+#cadre {
+    display: none;
+    width: 50%;
+    height: 200px;
+    border: none;
+    text-align: center;
+    line-height: 200px;
+    font-weight: bold;
+    letter-spacing: 15px;
+    /*color: rgba(185, 122, 87, 1);*/
+    color: whitesmoke;
+    margin-top: 15px;
+    font-family: "font";
+    font-size: 48px;
+    margin-left: 4%;
+}
+
+#pendu {
+    display: none;
+    position: fixed;
+    width: 500px;
+    height: 500px;
+    border: solid;
+    margin-top: 40px;
+    margin-left: 770px;
+    border: none;
+}
+
+#image {
+    display: block;
+    /*border: solid;*/
+    width: 500px;
+    height: 500px;
+    background: url(imagespendu3/1.png);
+    background-size: cover;
+
+}
+
+#clavier {
+    display: none;
+    float: inherit;
+    margin-top: 20px;
+    margin-right: 850px;
+    width: 200px;
+    height: 50px;
+    margin-left: 50px;
+}
+
+body {
+    /*background-image: url(tableau3.jpg);*/
+    /*background-color: grey;*/
+    background-image: linear-gradient(to right,
+    rgba(34, 177, 76, 0.8),
+    rgba(237, 28, 36, 0.8));
+    /*background-size: cover;
+    background-repeat: no-repeat;*/
+}
+
+#motsuivant {
+    display: none;
+    border: solid;
+    text-align: center;
+    font-size: 30px;
+    font-family: font;
+    border-width: 6px;
+    margin-top: -116px;
+    margin-right: 150px;
+    width: 350px;
+    height: 55px;
+    line-height: 50px;
+    color: whitesmoke;
+    border-color: whitesmoke;
+    float: right;
+}
+
+#motsuivant:hover {
+    display: none;
+    border: solid;
+    text-align: center;
+    font-size: 30px;
+    font-family: font;
+    border-width: 6px;
+    width: 350px;
+    height: 55px;
+    border-color: black;
+    color: black;
+    line-height: 50px;
+}
+
+
+#points {
+    display: none;
+    text-align: center;
+    font-size: 30px;
+    font-family: font;
+    margin-top: 150px;
+    margin-right: 200px;
+    width: 80px;
+    height: 150px;
+    line-height: 50px;
+    color: whitesmoke;
+    border-color: burlywood;
+    float: right;
+
+}
+
+#perdu {
+    display: none;
+    border: solid;
+    border-radius: 10px;
+    width: 500px;
+    height: 200px;
+    position: fixed;
+    background-repeat: no-repeat;
+    margin-top: 485px;
+    margin-left: 50px;
+    background-size: cover;
+    animation: mymove 0.75s infinite;
+}
+
+/*#gagne {
+	display: none;
+	width : 333px;
+	height: 134px;
+	position:fixed;
+	background-image:  url(gagner.png);
+
+}

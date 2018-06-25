@@ -1,0 +1,121 @@
+<!DOCTYPE html >
+<html>
+
+<head>
+    <title>Jeu du pendu</title>
+    <meta charset="utf-8" />
+    <link sel="icon" type="" href="icon.png" />
+    <link rel="stylesheet" type="text/css" href="projet.css" />
+    <link rel="icon" type="image/png" href="smiley.png" />
+    <script type="text/javascript" src="projet.js"></script>
+
+
+</head>
+
+<body>
+
+    <!-- MENU -->
+
+    <header id="header">
+        Jeu du pendu
+    </header>
+
+    <h id="barre"></h>
+
+    <section id="section1">
+        <article>
+            <p id="credits1">Réalisé par Villayes Julien et Louis Maxime pour le projet ISN 2018 </p>
+        </article>
+    </section>
+
+    <section id="section2">
+        <article>
+            <p id="regles1">Le joueur choisit son niveau de difficulté puis le thème qu'il désire.</p>
+            <p id="regles2">Le jeu pose la première et la dernière lettre de chaque mot, le joueur doit alors trouver les lettres manquantes, chaque lettre qui n’est pas dans le mot fait avancer le pendu.</p>
+            <p id="regles3">Vous avez 11 chances</p>
+            <p id="regles4">BON COURAGE</p>
+        </article>
+    </section>
+
+    <section id="points">
+        <p>Score</p>
+        <p id="nbrPoint"></p>
+    </section>
+
+    <div id="perdu"></div>
+
+    <!-- MOTEUR -->
+
+    <div id="pendu">
+        <div id="image">
+        </div>
+    </div>
+
+    <div id="cadre">
+
+    </div>
+
+    <div id="clavier">
+        <table id="ligne1">
+            <tr>
+                <td id="a">A</td>
+                <td id="z">Z</td>
+                <td id="e">E</td>
+                <td id="r">R</td>
+                <td id="t">T</td>
+                <td id="y">Y</td>
+                <td id="u">U</td>
+                <td id="i">I</td>
+                <td id="o">O</td>
+                <td id="p">P</td>
+            </tr>
+        </table>
+        <table id="ligne2">
+            <tr>
+                <td id="q">Q</td>
+                <td id="s">S</td>
+                <td id="d">D</td>
+                <td id="f">F</td>
+                <td id="g">G</td>
+                <td id="h">H</td>
+                <td id="j">J</td>
+                <td id="k">K</td>
+                <td id="l">L</td>
+                <td id="m">M</td>
+            </tr>
+        </table>
+        <table id="ligne3">
+            <tr>
+                <td id="w">W</td>
+                <td id="x">X</td>
+                <td id="c">C</td>
+                <td id="v">V</td>
+                <td id="b">B</td>
+                <td id="n">N</td>
+            </tr>
+
+        </table>
+    </div>
+
+    <ul id="ul">
+        <li id="jouer" class="li1">Jouer</li>
+        <li id="facile" class="li1">Facile</li>
+        <li id="moyen" class="li1">Moyen</li>
+        <li id="difficile" class="li1">Difficile</li>
+        <li id="regles" class="li1">Règles</li>
+        <!--<li id="score" class="li1">Score</li>-->
+        <li id="credits" class="li1">Crédits</li>
+        <li id="sports" class="li1">Sports</li>
+        <li id="ecole" class="li1">Ecole</li>
+        <li id="animaux" class="li1">Animaux</li>
+        <li id="fruits" class="li1">Fruits</li>
+        <li id="legumes" class="li1">Légumes</li>
+        <li id="accueil" class="li1">Accueil</li>
+    </ul>
+
+    <div id="motsuivant" class="li1">Mot suivant
+    </div>
+
+</body>
+
+</html>
